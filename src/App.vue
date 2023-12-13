@@ -14,14 +14,15 @@
         <textarea id="taListNew" rows="20" cols="50%" v-model="userListNew" />
       </div>
       <div>
-        <button @click="submitList" id="btnSubmit">Submit</button>
+      abcd
+        <button class="bg-sky-500 hover:bg-sky-700" @click="submitList" id="btnSubmit">Submit</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { onMounted, computed, ref } from 'vue';
+import { onMounted } from 'vue';
 
 export default {
   name: 'App',
